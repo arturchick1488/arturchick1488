@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#MENU{
+    background-color: white;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    
+}
+        
+        
+#juliausenko{
+    text-align: center;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 101px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+#HEADER {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 101px;
+}
+
+p {
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+color: white;
+}
+        
+dl {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 101px;
+}
+
+#CONTACT{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 101px;
+}

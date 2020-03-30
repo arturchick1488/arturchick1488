@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="/testStyle.css">
+</head>
+<body>
+
+    <header>
+        <h2 id="HEADERH1">
+            Отправка заявки на конференцию
+        </h2>
+        <hr>
+    </header>
+
+    <section>
+        <form method="POST">
+            <h2>Основные данные</h2>
+            
+            <h4>* Фамилия,имя,отчество:</h4>
+            <input type="text">
+            
+            <h4>Дата рождения:</h4>
+            <input type="date" value="1945-01-01">
+            
+            <h4>Пол:</h4>
+            <input type="radio" name="sex">&nbsp;Мужской
+            <input type="radio" name="sex">&nbsp;Женский<br>
+            
+            <h2>Данные для создания личного кабинета</h2>
+            
+            <h4>* Адрес электронной почты:</h4>
+            <input type="email">
+            
+            <h4>* Пароль для создания личного кабинета:</h4>
+            <input type="password" placeholder="password">
+            
+            <h4>* Подтвержения пароля:</h4>
+            <input type="password"><br>
+            
+            <h2>Данные для создания личного кабинета</h2>
+
+            <h4>* Тема доклада:</h4>
+            <input type="text">
+
+            <h4>* Тезиси доклада(не более 1000 символов):</h4>
+            <textarea name="" id="" cols="30" rows="10" maxlength="1000"></textarea>
+
+            <h4>Файл презентвции:</h4>
+            <input type="file">
+
+            <h2>Дополнительные опции</h2>
+            <input type="radio">&nbsp;Проживание в отеле<br>
+            <input type="radio" checked>&nbsp;Завтрак<br>
+            <input type="radio">&nbsp;Обед<br>
+            <input type="radio">&nbsp;Ужин<br>
+
+            <hr>
+            <input type="submit" value="Send"><br>
+            <hr>
+
+
+        </form>
+        
+
+        
+    </section>
+    
+</body>
+</html>
